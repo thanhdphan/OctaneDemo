@@ -4,12 +4,85 @@
 <ReportNode type="Iteration">
 <ReportNode type="Action">
 <ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Browser"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (2 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;title=&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;openurl=http://15.224.196.48/Default.aspx&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;opentitle=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2019-05-23 01:04:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>2</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[http://15.224.196.48/Default.aspx]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[1]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (2 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (2 objects found)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+name=<SPAN class=Failed> (Skipped)</SPAN><br>title=<SPAN class=Failed> (Skipped)</SPAN><br>openurl=http://15.224.196.48/Default.aspx<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>opentitle=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>number of tabs=1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>11dfee0b69e14f8c93441ba1df66e74b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
 <ReportNode type="Context">
 <ReportNode type="Step">
 <Data>
     <Name>Initialize Server.Click</Name>
     <Description />
-    <StartTime>2019-05-17 10:42:01</StartTime>
+    <StartTime>2019-05-23 01:04:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -44,7 +117,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d4829ad459124595b03cc69af0b424de</IconKey>
+      <IconKey>82d4b261cce04fd88cc0315ff04e0717</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -52,8 +125,8 @@
 <Data>
     <Name>Page</Name>
     <Description>Page</Description>
-    <StartTime>2019-05-17 10:42:01</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2019-05-23 01:04:09</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -70,7 +143,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d6ae2c94c37447f3966aa65b77bb4f1a</IconKey>
+      <IconKey>08dd6c532c0a4d838247aa28a8289f49</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -78,8 +151,8 @@
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:01</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2019-05-23 01:04:09</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -92,7 +165,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -103,7 +176,7 @@
     <Name>UserNameTextbox</Name>
     <ErrorText>Object is disabled</ErrorText>
     <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Type = text&lt;br&gt;Mercury Class = WebEdit&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //INPUT[@id="UserNameTextbox"]&lt;br&gt;|rows = 0&lt;br&gt;placeholder = &lt;br&gt;Name = UserNameTextbox&lt;br&gt;Max Length = 524288&lt;br&gt;Html Id = UserNameTextbox&lt;br&gt;default value = &lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:01</StartTime>
+    <StartTime>2019-05-23 01:04:09</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -113,7 +186,7 @@
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebEdit("UserNameTextbox").Set "oauth2-o4zd94lthoBq60gYb8Rf@microfocus.com"]]></Scripts>
-          <LineNo><![CDATA[2]]></LineNo>
+          <LineNo><![CDATA[3]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -148,11 +221,11 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9dbde96607da4649a4dd3b20d9d6b0c7</IconKey>
+      <IconKey>cc7b837653324578b6bd1e805d54a687</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\6a724b33-a11d-4030-bd9e-2da22986c583.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\8493cf86-8e66-47bf-9430-9c881c9c17fb.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <ReportNode type="Context">
@@ -160,7 +233,7 @@
 <Data>
     <Name>PasswordTextbox.Set</Name>
     <Description>"5cd371798380c0bf24b3b20bad6fd51db41150979d6e07c45830fd41be379625e6da2ca411d8a4a7a9952e952e8f"</Description>
-    <StartTime>2019-05-17 10:42:03</StartTime>
+    <StartTime>2019-05-23 01:04:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -196,7 +269,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9dbde96607da4649a4dd3b20d9d6b0c7</IconKey>
+      <IconKey>cc7b837653324578b6bd1e805d54a687</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -205,7 +278,7 @@
 <Data>
     <Name>Authenticate.Click</Name>
     <Description />
-    <StartTime>2019-05-17 10:42:03</StartTime>
+    <StartTime>2019-05-23 01:04:13</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -240,7 +313,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d4829ad459124595b03cc69af0b424de</IconKey>
+      <IconKey>82d4b261cce04fd88cc0315ff04e0717</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -248,8 +321,8 @@
 <Data>
     <Name>Page</Name>
     <Description>Page</Description>
-    <StartTime>2019-05-17 10:42:03</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2019-05-23 01:04:10</StartTime>
+    <Duration>4</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -266,7 +339,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d6ae2c94c37447f3966aa65b77bb4f1a</IconKey>
+      <IconKey>08dd6c532c0a4d838247aa28a8289f49</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -274,8 +347,8 @@
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:01</StartTime>
-    <Duration>3</Duration>
+    <StartTime>2019-05-23 01:04:10</StartTime>
+    <Duration>4</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -288,7 +361,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -299,7 +372,7 @@
     <Name>DomainList</Name>
     <ErrorText>Object is disabled</ErrorText>
     <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebList&lt;br&gt;Html Tag = SELECT&lt;br&gt;_xpath = //SELECT[@id="DomainList"]&lt;br&gt;|Visible Items = 1&lt;br&gt;Visible = -1&lt;br&gt;Name = DomainList&lt;br&gt;Items Count = 1&lt;br&gt;Html Id = DomainList&lt;br&gt;first item = &lt;br&gt;default value = &lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:04</StartTime>
+    <StartTime>2019-05-23 01:04:14</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -309,7 +382,7 @@
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebList("DomainList").Select "SAAS_INTERNAL"]]></Scripts>
-          <LineNo><![CDATA[5]]></LineNo>
+          <LineNo><![CDATA[7]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -340,18 +413,18 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>93d445308b3f455fb6f7ab88e2d23a0d</IconKey>
+      <IconKey>ea550cb198fa4901876d5fe926350c86</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\109284b2-4b85-470e-88af-214f5ba9bde7.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\0d1e955e-9b01-474f-9a94-493384b71be0.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:04</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2019-05-23 01:04:14</StartTime>
+    <Duration>3</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -364,7 +437,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -375,7 +448,7 @@
     <Name>Select Domain</Name>
     <ErrorText>Object is disabled</ErrorText>
     <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebButton&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //INPUT[@id="SelectDomainButton"]&lt;br&gt;|Visible = -1&lt;br&gt;Value = Select Domain&lt;br&gt;Type = submit&lt;br&gt;Name = Select Domain&lt;br&gt;Html Id = SelectDomainButton&lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:04</StartTime>
+    <StartTime>2019-05-23 01:04:17</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -385,7 +458,7 @@
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebButton("Select Domain").Click]]></Scripts>
-          <LineNo><![CDATA[6]]></LineNo>
+          <LineNo><![CDATA[9]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -420,18 +493,18 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d4829ad459124595b03cc69af0b424de</IconKey>
+      <IconKey>82d4b261cce04fd88cc0315ff04e0717</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\fdfecc92-fe52-4980-9272-46d86eb016ee.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\636a1138-8599-4f92-929d-7c7f541df386.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:05</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2019-05-23 01:04:17</StartTime>
+    <Duration>1</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -444,7 +517,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -455,7 +528,7 @@
     <Name>ProjectList</Name>
     <ErrorText>Object is disabled</ErrorText>
     <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebList&lt;br&gt;Html Tag = SELECT&lt;br&gt;_xpath = //SELECT[@id="ProjectList"]&lt;br&gt;|Visible Items = 2&lt;br&gt;Visible = -1&lt;br&gt;Name = ProjectList&lt;br&gt;Items Count = 2&lt;br&gt;Html Id = ProjectList&lt;br&gt;first item = &lt;br&gt;default value = &lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:05</StartTime>
+    <StartTime>2019-05-23 01:04:18</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -465,7 +538,7 @@
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebList("ProjectList").Select "SAAS_INTERNAL.Demo"]]></Scripts>
-          <LineNo><![CDATA[7]]></LineNo>
+          <LineNo><![CDATA[10]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -496,18 +569,18 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>93d445308b3f455fb6f7ab88e2d23a0d</IconKey>
+      <IconKey>ea550cb198fa4901876d5fe926350c86</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\e9e74b11-be1c-431c-bac7-028ce114bbea.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\b9f23002-fd51-40ec-871a-dc916b824d04.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:05</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2019-05-23 01:04:18</StartTime>
+    <Duration>3</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -520,7 +593,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -531,7 +604,7 @@
     <Name>Select Project</Name>
     <ErrorText>Object is disabled</ErrorText>
     <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebButton&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //INPUT[@id="SelectProjectButton"]&lt;br&gt;|Visible = -1&lt;br&gt;Value = Select Project&lt;br&gt;Type = submit&lt;br&gt;Name = Select Project&lt;br&gt;Html Id = SelectProjectButton&lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:06</StartTime>
+    <StartTime>2019-05-23 01:04:21</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -541,7 +614,7 @@
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebButton("Select Project").Click]]></Scripts>
-          <LineNo><![CDATA[8]]></LineNo>
+          <LineNo><![CDATA[12]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -576,18 +649,18 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d4829ad459124595b03cc69af0b424de</IconKey>
+      <IconKey>82d4b261cce04fd88cc0315ff04e0717</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\fa51676c-6997-4a0b-b8ff-b1e1de49450d.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\837b9029-a832-4db9-b2c3-161d192774ed.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:06</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2019-05-23 01:04:21</StartTime>
+    <Duration>1</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -600,7 +673,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -611,7 +684,7 @@
     <Name>Login</Name>
     <ErrorText>Object is disabled</ErrorText>
     <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebButton&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //INPUT[@id="ConnectButton"]&lt;br&gt;|Visible = -1&lt;br&gt;Value = Login&lt;br&gt;Type = submit&lt;br&gt;Name = Login&lt;br&gt;Html Id = ConnectButton&lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:06</StartTime>
+    <StartTime>2019-05-23 01:04:22</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -621,7 +694,7 @@
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebButton("Login").Click]]></Scripts>
-          <LineNo><![CDATA[9]]></LineNo>
+          <LineNo><![CDATA[13]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -656,18 +729,18 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d4829ad459124595b03cc69af0b424de</IconKey>
+      <IconKey>82d4b261cce04fd88cc0315ff04e0717</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\9b9ac146-9fe2-4ece-9ff2-449c7f4bc51e.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\4eca60e2-ec25-453e-965a-068aa51dfcce.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:06</StartTime>
-    <Duration>22</Duration>
+    <StartTime>2019-05-23 01:04:22</StartTime>
+    <Duration>21</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -680,7 +753,7 @@
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -692,7 +765,7 @@
     <ErrorText>Cannot identify the object "Logout" (of class WebButton).
 Verify that this object's properties match an object currently displayed in your application.</ErrorText>
     <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"Logout"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;WebButton).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebButton&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //DIV[@id="content"]/INPUT[1]&lt;br&gt;|Visible = -1&lt;br&gt;Value = Logout&lt;br&gt;Type = submit&lt;br&gt;Name = Logout&lt;br&gt;Html Id = ctl00_MainContent_LogoutButton&lt;br&gt;DHTML Class = &lt;br&gt;acc_name = &lt;br&gt;</Description>
-    <StartTime>2019-05-17 10:42:28</StartTime>
+    <StartTime>2019-05-23 01:04:43</StartTime>
     <Result>Failed</Result>
     <Extension>
       <StackTrace>
@@ -702,7 +775,7 @@ Verify that this object's properties match an object currently displayed in your
           <Language><![CDATA[VBScript - script block]]></Language>
           <FunctionName><![CDATA[VBScript global code]]></FunctionName>
           <Scripts><![CDATA[Browser("Browser").Page("Page").WebButton("Logout").Click]]></Scripts>
-          <LineNo><![CDATA[10]]></LineNo>
+          <LineNo><![CDATA[14]]></LineNo>
         </StackFrame>
       </StackTrace>
       <TestObject>
@@ -737,18 +810,18 @@ Verify that this object's properties match an object currently displayed in your
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d4829ad459124595b03cc69af0b424de</IconKey>
+      <IconKey>82d4b261cce04fd88cc0315ff04e0717</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
       <NodeType>Run Error</NodeType>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\598a5909-f28e-4c1c-a262-90a7623d9cb5.jpeg" highlight="0,0,832,628" />
+    <Snapshot reference="Resources\Snapshots\179da4dc-c43b-47d9-9d67-89ea14f6e0eb.jpeg" highlight="0,0,831,627" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Browser</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2019-05-17 10:42:28</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2019-05-23 01:04:43</StartTime>
+    <Duration>3</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -761,7 +834,7 @@ Verify that this object's properties match an object currently displayed in your
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>e5643a1e50f64dc68802d5ebadc94c0e</IconKey>
+      <IconKey>83c815478543498b86a3dce9c6eae7f7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -769,12 +842,12 @@ Verify that this object's properties match an object currently displayed in your
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2019-05-17 10:42:00</StartTime>
-    <Duration>28</Duration>
+    <StartTime>2019-05-23 01:04:04</StartTime>
+    <Duration>42</Duration>
     <Result>Failed</Result>
     <InputParameters />
     <Extension>
-      <IconKey>fa15a1a3e85a4d9e8be4ba3159330146</IconKey>
+      <IconKey>2f08ae10768542e8a53643afcc400c86</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -782,11 +855,11 @@ Verify that this object's properties match an object currently displayed in your
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2019-05-17 10:41:49</StartTime>
-    <Duration>39</Duration>
+    <StartTime>2019-05-23 01:04:01</StartTime>
+    <Duration>45</Duration>
     <Result>Failed</Result>
     <Extension>
-      <IconKey>07c0b1721176478fae8717d3b6f5e5f6</IconKey>
+      <IconKey>f3108eebf28e4e8e8617ffe5d978dc18</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -811,8 +884,8 @@ Verify that this object's properties match an object currently displayed in your
     <ToolVersion>14.52</ToolVersion>
     <ToolVersionStringLiteral>14.52</ToolVersionStringLiteral>
     <Description />
-    <StartTime>2019-05-17 10:41:48</StartTime>
-    <Duration>40</Duration>
+    <StartTime>2019-05-23 01:04:00</StartTime>
+    <Duration>46</Duration>
     <Result>Failed</Result>
     <InputParameters />
     <Extension>
@@ -825,7 +898,7 @@ Verify that this object's properties match an object currently displayed in your
         <DesktopBrowser>Google Chrome</DesktopBrowser>
         <ErrorMessage />
       </ParallelRunnerEnvInfo>
-      <IconKey>6d92d06f46c64929b52b33a5ab9b7bf3</IconKey>
+      <IconKey>90cf602475c04d75853b7763e9f3b9b1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -846,7 +919,7 @@ Verify that this object's properties match an object currently displayed in your
 </ReportNode>
 <GeneralInfo>
     <ResultName>VerifyTDConnectionLogin</ResultName>
-    <RunStartTime>2019-05-17 10:41:48</RunStartTime>
+    <RunStartTime>2019-05-23 01:04:00</RunStartTime>
     <Timezone>-07:00:00</Timezone>
     <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
     <OrchestrationToolVersion>14.52</OrchestrationToolVersion>

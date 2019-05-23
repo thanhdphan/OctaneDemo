@@ -1,4 +1,5 @@
-﻿wait(5)
+﻿'made update
+wait(5)
 Browser("Browser").Page("Page").WebButton("Initialize Server").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 Browser("Browser").Page("Page").WebEdit("UserNameTextbox").Set "oauth2-o4zd94lthoBq60gYb8Rf@microfocus.com" @@ script infofile_;_ZIP::ssf2.xml_;_
 Browser("Browser").Page("Page").WebEdit("PasswordTextbox").SetSecure "5cd371798380c0bf24b3b20bad6fd51db41150979d6e07c45830fd41be379625e6da2ca411d8a4a7a9952e952e8f" @@ script infofile_;_ZIP::ssf3.xml_;_
