@@ -1,4 +1,4 @@
-﻿'made update 2
+﻿'made update 3
 wait(5)
 Browser("Browser").Page("Page").WebButton("Initialize Server").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 wait(3)
