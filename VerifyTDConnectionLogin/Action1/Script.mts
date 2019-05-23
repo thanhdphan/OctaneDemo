@@ -1,4 +1,4 @@
-﻿'made update
+﻿'made update 2
 wait(5)
 Browser("Browser").Page("Page").WebButton("Initialize Server").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 Browser("Browser").Page("Page").WebEdit("UserNameTextbox").Set "oauth2-o4zd94lthoBq60gYb8Rf@microfocus.com" @@ script infofile_;_ZIP::ssf2.xml_;_
