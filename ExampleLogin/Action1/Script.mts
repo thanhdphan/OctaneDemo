@@ -1,4 +1,5 @@
-﻿wait(1)
+﻿'test
+wait(1)
 Browser("Browser").Page("Page").WebElement("Server URL:").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 wait(1)
 Browser("Browser").Page("Page").WebEdit("ServerURLTextbox").Set "https://almastqcdemo15.saas.microfocus.com/qcbin/" @@ script infofile_;_ZIP::ssf2.xml_;_
