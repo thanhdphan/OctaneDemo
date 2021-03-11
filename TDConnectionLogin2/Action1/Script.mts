@@ -15,3 +15,4 @@ Browser("Browser").Page("Page").WebButton("Select Project").Click @@ script info
 wait(1)
 Browser("Browser").Page("Page").WebButton("Login").Click @@ script infofile_;_ZIP::ssf11.xml_;_
 wait(1)
+'my comments
