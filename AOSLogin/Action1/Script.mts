@@ -1,4 +1,4 @@
-﻿'Modified by thanh  @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf5.xml_;_
+﻿'Modified by thanh1  @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf5.xml_;_
 'Test Advantage online test
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("UserMenu").Click @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf6.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("username").Set "thanhphan" @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf7.xml_;_
