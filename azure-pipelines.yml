@@ -11,6 +11,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: octane-start-task@2
+  inputs:
+    OctaneServiceConnection: 'AzureExtensionPipelineServiceConnection'
+    WorkspaceList: '29001'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
@@ -20,3 +24,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: octane-start-task@1
   inputs:
+  - task: octane-end-task@2
+    inputs:
+      OctaneServiceConnection: 'AzureExtensionPipelineServiceConnection'
+      WorkspaceList: '29001'
