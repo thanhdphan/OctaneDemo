@@ -1,5 +1,5 @@
 ﻿'nothing here changed here
-Dim i
+Dim i;
 For i  = 1 To 5 Step 1
 	'do nothing
 Next
